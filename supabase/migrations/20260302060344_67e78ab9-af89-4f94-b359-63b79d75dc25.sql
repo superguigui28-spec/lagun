@@ -1,0 +1,1 @@
+ALTER TABLE public.crm_creators ADD COLUMN IF NOT EXISTS city TEXT NOT NULL DEFAULT '';

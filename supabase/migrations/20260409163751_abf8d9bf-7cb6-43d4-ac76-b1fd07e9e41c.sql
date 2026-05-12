@@ -1,0 +1,1 @@
+ALTER TABLE public.team_tasks ADD COLUMN IF NOT EXISTS event_id uuid REFERENCES public.events(id) ON DELETE SET NULL;

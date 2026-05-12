@@ -1,0 +1,1 @@
+ALTER TABLE public.maestria_birthday ADD COLUMN email text;

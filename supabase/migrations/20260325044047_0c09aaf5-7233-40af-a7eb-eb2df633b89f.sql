@@ -1,0 +1,1 @@
+ALTER TABLE public.design_demands ADD COLUMN IF NOT EXISTS priority text DEFAULT null;

@@ -1,0 +1,1 @@
+ALTER TABLE public.chatbot_event_knowledge ADD COLUMN ticket_link text NULL;

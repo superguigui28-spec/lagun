@@ -1,0 +1,1 @@
+UPDATE events SET platform = 'superticket', api_token = 'SUPERTICKET_MAESTRIA_TOKEN' WHERE id = 'acfb85f9-f105-44c2-9e82-ef0a3021dacd';
