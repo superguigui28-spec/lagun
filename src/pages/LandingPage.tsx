@@ -161,12 +161,13 @@ export default function LandingPage() {
             </span>
             <div className="flex-1 h-px" style={{ backgroundColor: 'rgba(245,212,112,0.2)' }} />
           </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="flex justify-center gap-5 flex-wrap">
             {eventos.map((ev) => (
               <div
                 key={ev.id}
                 className="flex flex-col overflow-hidden"
                 style={{
+                  width: '280px',
                   backgroundColor: '#2B0E00',
                   border: '1px solid rgba(245,212,112,0.15)',
                   borderRadius: '16px',
