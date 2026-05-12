@@ -7,6 +7,7 @@ import palavraBranco from '@/assets/palavra-lagun-branco.png';
 import flyerNoiteFlamingo from '@/assets/flyer-noite-flamingo.png';
 import videoLagun from '@/assets/video-lagun.mp4';
 import logo99 from '@/assets/logo-99-gold.svg';
+import logo99Desktop from '@/assets/logo-99.jpg';
 import logoMaps from '@/assets/logo-googlemaps.png';
 import logoUber from '@/assets/logo-uber.png';
 import fotoLounge from '@/assets/foto-lounge.jpg';
@@ -156,7 +157,8 @@ export default function LandingPage() {
         {/* ── DESKTOP: grid de cards ── */}
         <div className="hidden md:block px-10 py-16 max-w-6xl mx-auto">
           <div className="flex items-center gap-4 mb-10">
-            <span className="text-xs tracking-[0.35em] uppercase" style={{ color: '#F5D470' }}>
+            <div className="flex-1 h-px" style={{ backgroundColor: 'rgba(245,212,112,0.2)' }} />
+            <span className="text-xs tracking-[0.35em] uppercase whitespace-nowrap" style={{ color: '#F5D470' }}>
               Próximos Eventos
             </span>
             <div className="flex-1 h-px" style={{ backgroundColor: 'rgba(245,212,112,0.2)' }} />
@@ -515,7 +517,7 @@ export default function LandingPage() {
                   className="flex items-center justify-center transition-all hover:opacity-80 overflow-hidden"
                   style={{ borderRadius: '8px', width: '52px', height: '40px' }}
                 >
-                  <img src={logo99} alt="99" style={{ width: 18, objectFit: 'contain' }} />
+                  <img src={logo99Desktop} className="w-full h-full object-cover" alt="99" />
                 </a>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=R.+Manoel+Gon%C3%A7alves+Carneiro,+65+Praia+do+Canto+Vit%C3%B3ria+ES+29055-740"
